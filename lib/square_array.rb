@@ -5,7 +5,7 @@ counter = 0
 new_array = []
 while counter < array.length do
   item = array[counter]
-    new_array[counter] = Math.sqrt(item)
+    new_array[counter] = item**2
     counter += 1
 
   end
