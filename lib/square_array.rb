@@ -2,7 +2,7 @@ def square_array(array)
 
 counter = 0
 
-new_array = [array]
+new_array = []
 while counter < new_array.length do
   item = array[counter]
     new_array[counter] = Math.sqrt(item)
