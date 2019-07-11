@@ -4,7 +4,8 @@ counter = 0
 
 new_array = [array]
 while counter < new_array.length do
-    new_array[counter] = [Math.sqrt(new_array[counter])]
+  item = array[counter]
+    new_array[counter] = [Math.sqrt(item)]
     counter += 1
   end
 
