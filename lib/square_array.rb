@@ -7,10 +7,10 @@ while counter < array.length do
   item = array[counter]
     new_array[counter] = item**
     counter += 1
-puts new_array
+
   end
 
-
+return new_array
 end
 
 
