@@ -7,9 +7,9 @@ while counter < array.length do
   #item = array[counter]
     new_array[counter] = Math.sqrt(array[counter])
     counter += 1
-
+puts new_array
   end
- puts new_array
+ 
 
 end
 
